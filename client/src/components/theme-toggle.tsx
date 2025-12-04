@@ -5,16 +5,18 @@ import { cn } from "@/lib/utils";
 const THEME_KEY = "theme";
 
 export function ThemeToggle(): JSX.Element {
-  const [isDark, setIsDark] = useState(() => {
-    try {
-      const saved = localStorage.getItem(THEME_KEY);
-      if (saved === "dark") return true;
-      if (saved === "light") return false;
-      return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    } catch {
-      return false;
-    }
-  });
+  const [isDark, setIsDark] = useState<boolean>(() => {
+  try {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "dark") return true;
+    if (stored === "light") return false;
+
+    // 👇 บังคับ default theme เป็น light
+    return false;
+  } catch {
+    return false;
+  }
+});
 
   useEffect(() => {
     const root = document.documentElement;

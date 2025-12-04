@@ -51,11 +51,23 @@ export function DevNoticeDialog() {
         }
       }}
     >
-      <DialogContent className="sm:max-w-[480px]">
+      <DialogContent
+  className="
+    sm:max-w-[480px]
+    w-[90%]
+    rounded-2xl
+    px-6 py-6
+  "
+>
         <DialogHeader>
           <DialogTitle>เว็บไซต์นี้อยู่ระหว่างการพัฒนา</DialogTitle>
           <DialogDescription>
-            ข้อมูลและฟีเจอร์อาจมีการเปลี่ยนแปลง และอาจพบข้อผิดพลาดได้เป็นระยะ ๆ
+            ข้อมูลและฟีเจอร์อาจมีการแสดงผลผิดปกติ<br />
+            <br />
+            Update ล่าสุด 4/12/68<br />
+            - แก้ไขปุ่ม Theme<br />
+            - แก้ไขขนาดเว็บไซต์สำหรับมือถือ<br />
+            - รายละเอียดยิบย่อย
           </DialogDescription>
         </DialogHeader>
 
