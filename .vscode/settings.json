@@ -1,0 +1,9 @@
+{
+  // … ถ้ามี config อื่นอยู่แล้วให้คั่นด้วย , ด้านบนหรือล่างได้
+
+  // ไม่ให้ VS Code ฟ้อง @tailwind / @apply ว่าเป็น at-rule แปลก
+  "css.lint.unknownAtRules": "ignore",
+
+  // ไม่ต้องเตือนเรื่อง ruleset ว่าง ๆ (ที่เราเว้นไว้เป็น escape class ต่าง ๆ)
+  "css.lint.emptyRules": "ignore"
+}

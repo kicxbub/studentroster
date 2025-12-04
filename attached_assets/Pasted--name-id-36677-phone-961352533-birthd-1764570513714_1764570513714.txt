@@ -1,0 +1,7 @@
+postgresql://studentroster_db_user:GAhK285VVq9yMJU2wkJeYRGlov0yMGpo@dpg-d4nf8u2li9vc73fid6tg-a/studentroster_db
+
+postgresql://studentroster_db_user:GAhK285VVq9yMJU2wkJeYRGlov0yMGpo@dpg-d4nf8u2li9vc73fid6tg-a.singapore-postgres.render.com/studentroster_db
+
+studentroster_db
+studentroster_db_user
+GAhK285VVq9yMJU2wkJeYRGlov0yMGpo
