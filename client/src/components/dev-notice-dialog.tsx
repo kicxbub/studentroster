@@ -68,6 +68,7 @@ export function DevNoticeDialog() {
             - แก้ไขปุ่ม Theme<br />
             - แก้ไขขนาดเว็บไซต์สำหรับมือถือ<br />
             - รายละเอียดยิบย่อย
+            - แก้ไขชื่อนักเรียนให้ถูกต้อง
           </DialogDescription>
         </DialogHeader>
 
